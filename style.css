@@ -1623,7 +1623,7 @@ button,
 
     .jlc-layanan-ahli-content h2 {
         margin-bottom: 18px;
-        font-size: 20px;
+        font-size: 20px !important;
         line-height: 1.25;
     }
 
@@ -1719,7 +1719,7 @@ button,
     z-index: 1;
     margin: 0;
     color: #ffffff;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif !important;
     font-size: 32px !important;
     font-weight: 700 !important;
     line-height: 1.4 !important;
@@ -1727,6 +1727,7 @@ button,
 }
 
 .jlc-guidance-heading h2 span {
+    font-family: 'Georgia', serif !important;
     display: inline;
     color: #C89A3D;
     font-size: inherit !important;
@@ -1946,8 +1947,16 @@ button,
     }
 
     .jlc-guidance-heading h2 {
+        font-family: 'Georgia', serif !important;
         max-width: 520px;
-        font-size: 24px !important;
+        font-size: 20px !important;
+        line-height: 1.4 !important;
+    }
+
+    .jlc-guidance-heading h2 span{
+        font-family: 'Georgia', serif !important;
+        max-width: 520px;
+        font-size: 20px !important;
         line-height: 1.4 !important;
     }
 
@@ -2408,14 +2417,14 @@ button,
     text-transform: uppercase;
 }
 
-.team-section-2-subtitle::before,
+/*.team-section-2-subtitle::before,
 .team-section-2-subtitle::after {
     content: "";
     width: 50px;
     height: 2px;
     background: #c89a3c;
 }
-
+*/
 .team-section-2-title {
     font-family: 'Georgia', serif !important;
     margin-top: 20px;
@@ -2630,7 +2639,7 @@ button,
     }
 
     .team-section-2-subtitle {
-        font-size: 13px;
+        font-size: 11px;
         letter-spacing: 2px;
     }
 
@@ -2640,7 +2649,7 @@ button,
     }
 
     .team-section-2-title {
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
 
     .team-section-2-description {
@@ -2699,7 +2708,7 @@ button,
     align-items: center;
     gap: 15px;
     background: linear-gradient(135deg, #e1b04d, #c7922d);
-    color: #14213d;
+    color: #fff;
     font-weight: 700;
     text-decoration: none;
     border-radius: 14px;
@@ -3701,7 +3710,7 @@ button,
 .jlc-services-heading h2 span {
     display: block;
     color: #C89A3D;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif !important;
     font-size: 32px;
     font-weight: 700;
 }
@@ -4015,7 +4024,11 @@ button,
     }
 
     .jlc-services-heading h2 {
-        font-size: 27px !important;
+        font-size: 20px !important;
+    }
+
+    .jlc-services-heading h2 span {
+        font-size: 20px !important;
     }
 
     .jlc-services-grid {
@@ -4066,12 +4079,12 @@ button,
     }
 
     .jlc-services-heading h2 {
-        font-size: 24px !important;
+        font-size: 20px !important;
         line-height: 1.4;
     }
 
     .jlc-services-heading h2 span {
-        font-size: 254x;
+        font-size: 20px;
     }
 
     .jlc-services-heading p {
@@ -4773,6 +4786,8 @@ button,
 }
 
 .waris-corporate-intro h2 span {
+
+    font-family: 'Georgia', serif !important;
     display: inline;
     color: #C89A3D;
     font-size: inherit !important;
@@ -4888,7 +4903,13 @@ button,
     }
 
     .waris-corporate-intro h2 {
-        font-size: 20px;
+        font-size: 20px !important;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .waris-corporate-intro h2 span {
+        font-size: 20px !important;
         line-height: 1.4;
         margin-bottom: 15px;
     }
@@ -4923,6 +4944,7 @@ button,
     }
 
     .waris-corporate-card h3 {
+        font-family: 'Cormorant Garamond', serif !important;
         font-size: 18px !important;
         font-weight: 900;
         line-height: 1.4;
@@ -5391,7 +5413,7 @@ button,
 
     .jlc-faq-sidebar > h2 {
         margin-bottom: 10px;
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
 
     .jlc-faq-sidebar > p {
@@ -5810,7 +5832,7 @@ button,
 .justice-footer {
     position: relative;
     overflow: hidden;
-    margin-top: 120px;
+    margin-top: 20px;
     background: linear-gradient(135deg, #061937 0%, #0b2450 55%, #0b2d62 100%);
     color: #fff;
 }
@@ -6160,17 +6182,17 @@ button,
     align-items: center;
     gap: 18px;
     color: var(--secondary-dark);
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 7px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.gallery-eyebrow span {
+/*.gallery-eyebrow span {
     width: 45px;
     height: 2px;
     background: var(--secondary);
-}
+}*/
 
 .gallery-heading h2 {
     color: var(--primary);
@@ -6182,6 +6204,11 @@ button,
 }
 
 .gallery-heading h2 span {
+    font-family: 'Georgia', serif !important;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.13;
+    margin-bottom: 15px;
     display: block;
     color: var(--secondary-dark);
 }
@@ -6332,8 +6359,13 @@ button,
 
 @media (max-width: 767px) {
     .gallery-heading h2 {
-        font-size: 24px;
+        font-size: 20px !important;
     }
+
+    .gallery-heading h2 span {
+        font-size: 20px !important;
+    }
+
     .jlc-gallery-section {
         padding: 65px 0;
     }
@@ -6411,14 +6443,14 @@ button,
     line-height: 1.5;
 }
 
-.list-kota-label::before {
+/*.list-kota-label::before {
     content: "";
     display: inline-block;
     width: 22px;
     height: 2px;
     min-width: 22px;
     background: #C89A3D;
-}
+}*/
 
 /* JUDUL */
 
@@ -6595,7 +6627,7 @@ button,
     }
 
     .list-kota-header h2 {
-        font-size: 24px !important;
+        font-size: 20px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
